@@ -21,12 +21,24 @@ Upload a student `.docx` paper to Claude and this skill will produce a `.docx` r
 
 - Title page errors
 - Heading and structure errors
+- Body text formatting (spacing, margins, alingment, page numbers)
 - In-text citation errors
 - Unsubstantiated claims (specific factual claims missing citations)
 - In-text citation ↔ reference list cross-check
 - Reference integrity flags (wrong authors, wrong titles, AI-generated tracking URLs, ghost references)
 - Reference formatting errors
 - Appendix cross-check (cited but missing, or present but uncited)
+
+### Planed Updates
+
+- Table errors
+- Figure errors
+
+### Not Checked
+- Common grammatical, punctuation, and spelling errors
+- Proper noun capitalization and abbreviation usage 
+- Bias-free language
+- Plagiarism
 
 ---
 
