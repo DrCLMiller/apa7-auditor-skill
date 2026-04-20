@@ -12,7 +12,7 @@ metadata:
   institution: "College of Business and Technology, Wilmington University, Wilmington, DE"
   linkedin: "https://www.linkedin.com/in/cari-miller/"
   license: "MIT"
-  repository: "https://github.com/YOUR_USERNAME/apa7-auditor-skill"
+  repository: "https://github.com/DrCLMiller/apa7-auditor-skill"
 ---
 
 # APA 7 Auditor
