@@ -1,16 +1,15 @@
 # APA 7 Auditor Skill for Claude
 
-A Claude skill that performs a comprehensive APA 7 audit of a student's `.docx` paper and produces a formatted Word document correction log and reference verification report.
-
-**Developed by:** Dr. Cari L. Miller  
-**Institution:** College of Business and Technology, Wilmington University, Wilmington, DE  
-**LinkedIn:** [linkedin.com/in/cari-miller](https://www.linkedin.com/in/cari-miller/)
+This skill was designed for higher-ed students. It was specifically developed for Claude.ai to:
+- review a student's paper, 
+- produce an audit report based on APA 7 criteria, and
+- verify references for fabrications.
 
 ---
 
-## What It Does
+## What's On the APA 7 Audit Report
 
-Upload a student `.docx` paper to Claude and this skill will produce a `.docx` report containing:
+Upload a student paper (.docx) to Claude and this skill will produce an APA7 review of the paper containing:
 
 - **Correction Log** — a categorized table of every APA 7 error found, with the current version, the corrected version, and the rule violated
 - **Reference Verification Summary** — a Trinity Check (Author + Year + Title) for every reference, plus DOI/URL validation
@@ -81,6 +80,13 @@ Claude will recognize the skill and walk through the full audit workflow automat
 ## Important Disclaimer
 
 This tool is intended strictly for **student self-improvement**. It is not meant to be used by instructors for grading purposes. The tool is based on a probabilistic AI model and may make errors. Students remain responsible for the work they submit. Critical thinking and knowledge of APA 7 guidelines are still required to maximize accuracy.
+
+---
+
+**Developed by:** Dr. Cari L. Miller  
+**Institution:** College of Business and Technology, Wilmington University, Wilmington, DE  
+**LinkedIn:** [linkedin.com/in/cari-miller](https://www.linkedin.com/in/cari-miller/)
+
 
 ---
 
