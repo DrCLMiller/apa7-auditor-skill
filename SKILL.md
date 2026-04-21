@@ -64,9 +64,30 @@ Use category header rows (bold, spanning) to divide the table:
 - `IN-TEXT CITATION AND REFERENCE CROSS-CHECK`
 - `REFERENCE VERIFICATION — INTEGRITY FLAGS`
 - `REFERENCE FORMATTING ERRORS`
+- `TABLES & FIGURES ERRORS`
 - `OTHER APA 7 / CONTENT ERRORS`
 
 See `references/apa7-rules.md` for the full rule checklist per category.
+
+### Step 2b — Tables & Figures Audit
+
+If the paper contains no tables or figures, skip this step and note "No tables or figures present" in the correction log under the `TABLES & FIGURES ERRORS` category header.
+
+If tables or figures are present, audit each one using `references/apa7-rules.md` → TABLES & FIGURES section. Check:
+
+**Placement & Callout (both tables and figures):**
+- Is the table/figure called out in body text before it appears? (e.g., "Table 1 presents…" or "(see Figure 2)")
+- Is it placed after the callout — at bottom of page, top of next page, or on its own page?
+- Blank line between body text and table/figure, and between table/figure and next body text?
+- Not placed in the middle of a page?
+
+**Tables:** Number (bold, left-aligned) → title (italic, left-aligned, title case, line directly below number) → column headers (centered) → body text/number alignment → same font as paper → acceptable line spacing (single, 1.5, or double) → no vertical borders → note format ("*Note.*" italic, then regular text, left-aligned, double-spaced).
+
+**Figures:** Number (bold, left-aligned) → title (italic, left-aligned, title case) → image left-aligned → font inside image (sans-serif, 8–14pt) → note format if present.
+
+**Numbering:** Tables numbered independently from figures; both sequentially in order of first mention.
+
+Log every issue under the `TABLES & FIGURES ERRORS` category header in the correction log. If no issues are found, add a single row noting "No errors found."
 
 ### Step 3 — Reference Verification
 
@@ -125,6 +146,7 @@ When in doubt, flag it. Note these in a dedicated subsection of the correction l
 - [ ] Did I verify appendices are referenced in alphabetical order in the body text?
 - [ ] Did I check for factual errors in content claims (e.g., pending legislation described as enacted)?
 - [ ] Did I check all reference formatting (dates, titles, authors, URLs, italics, sentence case)?
+- [ ] Did I audit all tables and figures (Step 2b) — or note their absence — and log findings under `TABLES & FIGURES ERRORS`?
 
 ### Step 5 — Build Academic Quality Summary
 
@@ -171,6 +193,7 @@ Use the `docx` npm library (see docx skill for setup). See output format spec be
    - Single large table with category header rows spanning all columns
    - Column headers: **Page / Section** | **Current Version** | **Correction (APA 7)** | **Rule Violated**
    - Category headers: bold text in merged/spanned row (or use shaded row)
+   - Categories (in order): `TITLE PAGE ERRORS` → `HEADING & STRUCTURE ERRORS` → `IN-TEXT CITATION ERRORS` → `UNSUBSTANTIATED CLAIMS` → `IN-TEXT CITATION AND REFERENCE CROSS-CHECK` → `REFERENCE VERIFICATION — INTEGRITY FLAGS` → `REFERENCE FORMATTING ERRORS` → `TABLES & FIGURES ERRORS` → `OTHER APA 7 / CONTENT ERRORS`
    - Each issue = one row
 
 4. **Reference Verification Summary** (Heading 1)
