@@ -21,6 +21,7 @@ Upload a student paper (.docx) to Claude and this skill will produce an APA7 rev
 - Title page errors
 - Heading and structure errors
 - Body text formatting (spacing, margins, alingment, page numbers)
+= Tables and figures formatting errors
 - In-text citation errors
 - Unsubstantiated claims (specific factual claims missing citations)
 - In-text citation ↔ reference list cross-check
@@ -28,13 +29,9 @@ Upload a student paper (.docx) to Claude and this skill will produce an APA7 rev
 - Reference formatting errors
 - Appendix cross-check (cited but missing, or present but uncited)
 
-### Planed Updates
-
-- Table errors
-- Figure errors
-
 ### Not Checked
 - Common grammatical, punctuation, and spelling errors
+- Use of numbers (spelled out vs actual number, before/after nouns)
 - Proper noun capitalization and abbreviation usage 
 - Bias-free language
 - Plagiarism
