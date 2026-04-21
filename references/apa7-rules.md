@@ -176,6 +176,69 @@
 
 ---
 
+## TABLES & FIGURES
+
+> Only audit this section if the paper contains tables or figures. If none are present, skip.
+
+### Placement & Callout (applies to both tables and figures)
+
+| Check | Rule |
+|-------|------|
+| Table or figure is called out (mentioned) in the body text before it appears | APA 7 §7.5 |
+| Callout phrasing: e.g., "Table 1 presents…" or "(see Figure 2)" | APA 7 §7.5 |
+| Table/figure is placed after the callout — at bottom of page, top of next page, or on its own page | APA 7 §7.6 |
+| Table/figure is NOT placed in the middle of a page (interrupting a paragraph) | APA 7 §7.6 |
+| Blank line separates body text from the table/figure | APA 7 §7.6 |
+| Blank line separates the end of the table/figure from the next body text | APA 7 §7.6 |
+| Long tables or large figures that do not fit within a page appear on their own page | APA 7 §7.6 |
+
+### Table-Specific Rules
+
+| Check | Rule |
+|-------|------|
+| Table number is bold (e.g., **Table 1**) | APA 7 §7.10 |
+| Table number is left-aligned | APA 7 §7.10 |
+| Table number line is double-spaced above the title | APA 7 §7.10 |
+| Table title is italicized | APA 7 §7.10 |
+| Table title is left-aligned | APA 7 §7.10 |
+| Table title uses title case | APA 7 §7.10 |
+| Table title appears on the line immediately below the number | APA 7 §7.10 |
+| Column headers are centered | APA 7 §7.12 |
+| Text in table body cells is left-aligned | APA 7 §7.13 |
+| Numbers in table body cells are centered or right-aligned | APA 7 §7.13 |
+| Table body uses the same font and size as the paper body | APA 7 §7.13 |
+| Line spacing in table body is single, 1.5, or double — chosen for readability (all are acceptable) | APA 7 §7.13 |
+| No vertical border lines in the table (only horizontal borders: top of header, bottom of header, bottom of table) | APA 7 §7.11 |
+| If a note is present: begins with italic "Note." followed by regular (non-italic) text | APA 7 §7.14 |
+| Note is left-aligned and double-spaced | APA 7 §7.14 |
+| Note appears directly below the table | APA 7 §7.14 |
+
+### Figure-Specific Rules
+
+| Check | Rule |
+|-------|------|
+| Figure number is bold (e.g., **Figure 1**) | APA 7 §7.22 |
+| Figure number is left-aligned | APA 7 §7.22 |
+| Figure title is italicized | APA 7 §7.22 |
+| Figure title is left-aligned | APA 7 §7.22 |
+| Figure title uses title case | APA 7 §7.22 |
+| Figure title appears on the line immediately below the number | APA 7 §7.22 |
+| The figure image (chart, graph, photograph, etc.) is left-aligned | APA 7 §7.22 |
+| Font within the figure image is sans-serif (e.g., Aptos, Calibri, Arial), 8–14pt | APA 7 §7.22 |
+| If a note is present: begins with italic "Note." followed by regular (non-italic) text | APA 7 §7.25 |
+| Note is left-aligned and double-spaced | APA 7 §7.25 |
+| Note appears directly below the figure | APA 7 §7.25 |
+
+### Numbering & Sequential Order (applies to both)
+
+| Check | Rule |
+|-------|------|
+| Tables are numbered sequentially in the order they are first mentioned in the text (Table 1, Table 2, …) | APA 7 §7.10 |
+| Figures are numbered sequentially in the order they are first mentioned in the text (Figure 1, Figure 2, …) | APA 7 §7.22 |
+| Table and figure numbering series are independent of each other | APA 7 §7.1 |
+
+---
+
 ## BODY TEXT FORMAT
 
 | Check | Rule |
