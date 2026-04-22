@@ -2,27 +2,31 @@
 name: apa7-auditor
 description: >
   Perform a comprehensive APA 7 audit of an uploaded student paper (.docx).
-  Produces a formatted Word document correction log and reference verification
+  Produces a formatted Word document containing a correction log and reference verification
   report. Use this skill whenever the user uploads a paper and asks for APA
   review, citation checking, reference verification, or formatting audit —
   even if they just say "check my paper," "fix my references," or "is this
   APA correct?" Always trigger for academic paper review tasks.
-metadata:
-  author: "Dr. Cari L. Miller"
-  institution: "College of Business and Technology, Wilmington University, Wilmington, DE"
-  linkedin: "https://www.linkedin.com/in/cari-miller/"
-  license: "MIT"
-  repository: "https://github.com/DrCLMiller/apa7-auditor-skill"
+
 ---
+
+## MANDATORY EXECUTION RULES
+
+**NO GENERALIZATIONS** Never provide a general review. You MUST execute the entire SKILL.md including using the apa7-rules.md to complete the check
+**REFRESH** Treat every uploaded .docx student paper as a NEW audit. Do not retain memory from previous papers unless explicitly asked to do so by the user.
+**WORKFLOW** Always follow the workflow, step-by-step. 
+**OUTPUT FORMAT** Never deviate from the prescribed output format. Do not add any extra formatting to the Word doc. Keep the formatting simple.
+
+------
 
 # APA 7 Auditor
 
-Produces a complete **APA 7 Correction Log & Reference Verification Report** as a .docx file.
+Produces a complete **APA 7 Audit Report** as a .docx file.
 
 ## Quick Overview
 
 **Input:** Uploaded .docx student paper  
-**Output:** .docx report with correction log table, reference verification, and academic quality summary  
+**Output:** .docx audit report with correction log table and reference verification  
 **Tools needed:** `extract-text`, web search (for reference verification), `docx` npm library
 
 ---
@@ -164,7 +168,7 @@ When in doubt, flag it. Note these in a dedicated subsection of the correction l
 
 Write the following disclaimer verbatim (or close to it) at the top of this section:
 
-> *This report was generated strictly for student self-improvement only. It is NOT meant to be used by instructors for grading purposes. This tool is based on a probabilistic AI model that may make errors. Ultimately, students are responsible for the work they submit. This tool is meant to be a supportive aide, NOT a final solution. Critical thinking and knowledge of APA 7 guidelines are still required to maximize accuracy.*
+> This report was generated strictly for **STUDENT SELF-IMPROVEMENT** only. It is NOT meant to be used by instructors for grading purposes. This tool is based on a probabilistic AI model that may make errors. Ultimately, students are responsible for the work they submit. This tool is meant to be a supportive aide, NOT a final solution. Critical thinking and knowledge of APA 7 guidelines are still required to maximize accuracy.
 
 Below the disclaimer, include:
 - Bold total: `Total errors identified: X individual issues across Y categories.`
@@ -255,3 +259,12 @@ This skill was developed by **Dr. Cari L. Miller**, College of Business and Tech
 LinkedIn: https://www.linkedin.com/in/cari-miller/
 
 Licensed under the MIT License. Attribution must be retained in all copies or substantial portions of this skill.
+
+---
+
+metadata:
+  author: "Dr. Cari L. Miller"
+  institution: "College of Business and Technology, Wilmington University, Wilmington, DE"
+  linkedin: "https://www.linkedin.com/in/cari-miller/"
+  license: "MIT"
+  repository: "https://github.com/DrCLMiller/apa7-auditor-skill"
