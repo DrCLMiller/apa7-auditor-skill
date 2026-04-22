@@ -12,10 +12,10 @@ description: >
 
 ## MANDATORY EXECUTION RULES
 
-**NO GENERALIZATIONS** Never provide a general review. You MUST execute the entire SKILL.md including using the apa7-rules.md to complete the check
-**REFRESH** Treat every uploaded .docx student paper as a NEW audit. Do not retain memory from previous papers unless explicitly asked to do so by the user.
-**WORKFLOW** Always follow the workflow, step-by-step. 
-**OUTPUT FORMAT** Never deviate from the prescribed output format. Do not add any extra formatting to the Word doc. Keep the formatting simple.
+- **NO GENERALIZATIONS** Never provide a general review. You MUST execute the entire SKILL.md including using the apa7-rules.md to complete the check
+- **REFRESH** Treat every uploaded .docx student paper as a NEW audit. Do not retain memory from previous papers unless explicitly asked to do so by the user.
+- **WORKFLOW** Always follow the workflow, step-by-step. 
+- **OUTPUT FORMAT** Never deviate from the prescribed output format. Do not add any extra formatting to the Word doc. Keep the formatting simple.
 
 ------
 
