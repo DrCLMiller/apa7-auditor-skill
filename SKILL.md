@@ -56,7 +56,7 @@ Work through all six categories. Collect every issue as a row for the correction
 
 **Table columns:** `Page / Section` | `Current Version` | `Correction (APA 7)` | `Rule Violated`
 
-Use category header rows (bold, spanning) to divide the table:
+Use category header rows (bold, spanning) to divide the table. The full set of categories (in order) is:
 - `TITLE PAGE ERRORS`
 - `HEADING & STRUCTURE ERRORS`
 - `IN-TEXT CITATION ERRORS`
@@ -67,11 +67,13 @@ Use category header rows (bold, spanning) to divide the table:
 - `TABLES & FIGURES ERRORS`
 - `OTHER APA 7 / CONTENT ERRORS`
 
+**IMPORTANT — Suppress empty categories:** Only include a category header row (and its rows) in the correction log table if at least one error was found in that category. Do NOT add a "No errors found" placeholder row. Instead, track which categories had zero errors and list them in a congratulatory note placed immediately after the table (see Output Format → Clean Categories Note).
+
 See `references/apa7-rules.md` for the full rule checklist per category.
 
 ### Step 2b — Tables & Figures Audit
 
-If the paper contains no tables or figures, skip this step and note "No tables or figures present" in the correction log under the `TABLES & FIGURES ERRORS` category header.
+If the paper contains no tables or figures, skip this step entirely. The `TABLES & FIGURES ERRORS` category will be suppressed from the correction log table and listed in the Clean Categories Note instead.
 
 If tables or figures are present, audit each one using `references/apa7-rules.md` → TABLES & FIGURES section. Check:
 
@@ -193,8 +195,15 @@ Use the `docx` npm library (see docx skill for setup). See output format spec be
    - Single large table with category header rows spanning all columns
    - Column headers: **Page / Section** | **Current Version** | **Correction (APA 7)** | **Rule Violated**
    - Category headers: bold text in merged/spanned row (or use shaded row)
-   - Categories (in order): `TITLE PAGE ERRORS` → `HEADING & STRUCTURE ERRORS` → `IN-TEXT CITATION ERRORS` → `UNSUBSTANTIATED CLAIMS` → `IN-TEXT CITATION AND REFERENCE CROSS-CHECK` → `REFERENCE VERIFICATION — INTEGRITY FLAGS` → `REFERENCE FORMATTING ERRORS` → `TABLES & FIGURES ERRORS` → `OTHER APA 7 / CONTENT ERRORS`
+   - **Only include categories where at least one error was found.** Skip (suppress) any category with zero errors entirely — no header row, no placeholder row.
+   - Maintain the canonical order for any categories that do appear: `TITLE PAGE ERRORS` → `HEADING & STRUCTURE ERRORS` → `IN-TEXT CITATION ERRORS` → `UNSUBSTANTIATED CLAIMS` → `IN-TEXT CITATION AND REFERENCE CROSS-CHECK` → `REFERENCE VERIFICATION — INTEGRITY FLAGS` → `REFERENCE FORMATTING ERRORS` → `TABLES & FIGURES ERRORS` → `OTHER APA 7 / CONTENT ERRORS`
    - Each issue = one row
+
+   **Clean Categories Note** (immediately after the table, outside the table, plain paragraph):
+   - If one or more categories had zero errors, add a paragraph in this format:
+     > ✅ The following categories were audited and no errors were found: [comma-separated list of clean category names].
+   - Use a warm, encouraging tone — e.g., "Great work! The following categories were audited and no errors were found: …"
+   - If ALL categories had errors (nothing to suppress), omit this note entirely.
 
 4. **Reference Verification Summary** (Heading 1)
    - **Phase 1 — Metadata Completeness Audit** (Heading 2): bullet list, one entry per reference
