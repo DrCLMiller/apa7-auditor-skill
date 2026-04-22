@@ -1,6 +1,6 @@
 # APA 7 Auditor Skill for Claude
 
-This skill was designed for higher-ed students. It was specifically developed for Claude and Gemini to:
+This skill was designed for higher-ed students. It was specifically developed for Claude (recommended) and Gemini to:
 - review a student's paper, 
 - produce an comprehensive audit report based on APA 7 criteria, and
 - verify references for fabrications.
@@ -43,6 +43,7 @@ Upload a student paper (.docx) to Claude and this skill will produce an APA7 rev
 ### Requirements
 - Access to Claude with computer use / skills support
 - A Claude environment that supports skill files (e.g., Claude with a mounted `/mnt/skills/` directory)
+- You can also use the skill with Gemini, but as of April 2026, Gemini models are not as good at "instruction following."
 
 ### Installation
 
