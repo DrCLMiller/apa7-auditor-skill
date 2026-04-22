@@ -1,8 +1,8 @@
 # APA 7 Auditor Skill for Claude
 
-This skill was designed for higher-ed students. It was specifically developed for Claude.ai to:
+This skill was designed for higher-ed students. It was specifically developed for Claude and Gemini to:
 - review a student's paper, 
-- produce an audit report based on APA 7 criteria, and
+- produce an comprehensive audit report based on APA 7 criteria, and
 - verify references for fabrications.
 
 ---
