@@ -1,6 +1,6 @@
 # APA 7 Auditor Skill for Claude
 
-This skill was designed for higher-ed students. It was specifically developed for Claude (recommended) and Gemini to:
+This skill was designed for higher-ed students. It was specifically developed for Claude (STONGLY recommended) and Gemini to:
 - review a student's paper, 
 - produce an comprehensive audit report based on APA 7 criteria, and
 - verify references for fabrications.
@@ -9,11 +9,10 @@ This skill was designed for higher-ed students. It was specifically developed fo
 
 ## What's On the APA 7 Audit Report
 
-Upload a student paper (.docx) to Claude and this skill will produce an APA7 review of the paper containing:
+Upload a student paper (.docx) to Claude and this skill will conduct an APA7 review of the paper containing:
 
 - **Correction Log** — a categorized table of every APA 7 error found, with the current version, the corrected version, and the rule violated
-- **Reference Verification Summary** — a Trinity Check (Author + Year + Title) for every reference, plus DOI/URL validation
-- **Academic Quality Summary** — source classification table (peer-reviewed vs. gray literature) with ratio analysis
+- **Optional Reference Verification Summary** — a Trinity Check (Author + Year + Title) for every reference, plus DOI/URL validation
 - **Disclaimer & Issue Summary** — total error count across all categories, with a clear statement that the report is for student self-improvement only
 
 ### Error Categories Checked
@@ -47,8 +46,8 @@ Upload a student paper (.docx) to Claude and this skill will produce an APA7 rev
 
 ### Installation
 
-1. Download or clone this repository
-2. Copy the files into your Claude skills directory:
+1. Download or clone this repository as a ZIP file (select Code->Download)
+2. Add the new skill to your Claude skills directory by uploading the ZIP file:
 
 ```
 /mnt/skills/user/apa7-auditor/SKILL.md
@@ -57,9 +56,9 @@ Upload a student paper (.docx) to Claude and this skill will produce an APA7 rev
 
 3. Upload a student `.docx` paper to Claude and say something like:
    - *"Please audit this paper for APA 7"*
-   - *"Check my references"*
-   - *"Fix my citations"*
-   - *"Is this APA correct?"*
+   - *"Check the references"*
+   - *"Fix the citations"*
+   - *"Is this APA compliant?"*
 
 Claude will recognize the skill and walk through the full audit workflow automatically.
 
@@ -93,6 +92,8 @@ This tool is intended strictly for **student self-improvement**. It is not meant
 This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
 
 Attribution to **Dr. Cari L. Miller, Wilmington University** must be retained in all copies or substantial portions of this skill.
+
+Last updated: April 29, 2026
 
 ---
 
