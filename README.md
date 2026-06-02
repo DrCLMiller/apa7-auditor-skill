@@ -1,9 +1,11 @@
 # APA 7 Auditor Skill for Claude
 
-This skill was designed for higher-ed students. It was specifically developed for Claude (STONGLY recommended) and Gemini to:
+This skill was designed for higher-ed students. It was specifically developed for Claude (STONGLY recommended):
 - review a student's paper, 
 - produce an comprehensive audit report based on APA 7 criteria, and
-- verify references for fabrications.
+- verify references for fabrications (optional task).
+
+NOTE: This skill has not been tested with ChatGPT. Gemini produces less accurate results. This skill does not work with Copilot or Perplexity. 
 
 ---
 
